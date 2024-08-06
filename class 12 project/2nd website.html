@@ -1,0 +1,48 @@
+<html>
+<head>
+    
+    <title>Document 2</title>
+    <link rel="stylesheet" href="website 1.css">
+</head>
+<body align="center">
+    <div class="background"></div>
+    <img id="myimage" src="/workings/class 12 project/India gate.png" alt="Image not found" width="500"><br>
+    India Gate<br><br>
+    <button id="bot">Full View</button>
+     <br>
+    <p>Established on 2nd May 1959 under the administrative control of the Council of Scientific & Industrial
+         Research (CSIR), Birla Industrial & Technological Museum in Kolkata is widely regarded as the mother of
+          science museum movement in India. The idea behind this pioneering initiative came from Dr. B C Roy, the
+        then Chief Minister of West Bengal who after visiting the Deutsches Museum in Munich was inspired to create
+         a similar institution in India for public engagement with science & technology. His vision and efforts in
+          this regard found instant support and patronage from the likes of Pandit Jawharlal Nehru, the then Prime
+         Minister of India, and industrialist Shri G D Birla.The latter donated the Birla Park, his sprawling
+         bungalow and the adjoining plot of land in the upscale Ballygunge area of Calcutta, to CSIR for setting up
+          an Industrial and Technological Museum. Pandit Nehru received this magnanimous gift from Shri G D Birla in
+         1956.
+        Starting with the taking over of the Birla Park in 1956 by the Govt. of India to the Museum’s inauguration in 
+        1959, the journey was quite eventful and challenging. Careful planning and painstaking efforts by the museum’s
+         planning committee that was headed by Dr. B C Roy himself and included a host of renowned scientists, educationists
+          and industrialists ultimately resulted in the formation of India’s first science museum under the ambit of the central government</p>
+        <br><table>
+            <tr>
+                <td><a href="/workings/class 12 project/Main website.html">Home</a></td>
+            </tr>
+        </table>
+        <script>
+               myimage.style.width = '500px';
+        myimage.style.height = '200px';
+
+        bot.addEventListener("click", ()=>{
+        myimage.style.height = '400px';
+        if(myimage.style.width === '1000px'){
+            myimage.style.width = "500px";
+            
+        }
+        else if(myimage.style.width === '500px'){
+            myimage.style.width = "1000px";
+        } 
+        })
+         </script>
+</body>
+</html>

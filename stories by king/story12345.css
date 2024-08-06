@@ -1,0 +1,32 @@
+*{
+  /* margin: 0;
+  padding: 0; */
+
+}
+body{
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+}
+h1{
+  text-decoration:  underline;
+  color: beige;
+}
+h2{
+  color: antiquewhite;
+}
+
+table td a{
+  text-decoration: none;
+  color: aliceblue;
+  border: solid 2px;
+}
+table{
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  color: brown;
+  
+}
+

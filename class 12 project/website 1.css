@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+.background{
+    background-image: url(Background.png);
+    filter: blur(2px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+table tr td a{
+    text-decoration: none;
+    border: black 2px solid;
+    color:black;
+    position: relative;
+    right: 14vh;
+}
+table{
+    position: relative;
+    left: 745px;
+}
+#bot{
+    display: inline;
+    border: 2px solid black;
+}
+img{
+    width: 500px;
+    height: 200px;
+    /* transition-property: width;
+    transition-duration: 1s;
+    transition-timing-function: ease-in; */
+    transition: width 1s ease-in, height 3s ease-in
+}
