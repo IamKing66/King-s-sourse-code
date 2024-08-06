@@ -1,0 +1,210 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* ul{
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto;
+ 
+}
+ul li{
+  list-style: none;
+  margin: 23px;
+} */
+
+img{
+  width: 70;
+  position: relative;
+  top: 9;
+  border: 2px solid black;
+  border-radius: 24%;
+}
+
+ul li{ 
+  list-style: none;
+  display: inline;
+  padding: 4;
+} 
+
+ul li a{ 
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+} 
+header{
+  margin: 0;
+  padding: 4;
+  background: black;
+  color: azure;
+  height: 60px;
+}
+body{
+  background-color: rgb(239, 139, 139);
+}
+
+.div1 {
+  margin: 100px;
+  height: 300px;
+  width: 200px;
+  background-color: rgb(216, 181, 181);
+  padding: 30px;
+  transform-origin: left;
+  transform: translate(460px,50px) rotate(0.55turn);
+  }
+
+  .div2 {
+    margin: 200px;
+    height: 300px;
+    width: 200px;
+    background-color: rgb(255, 0, 0);
+    padding: 30px;
+    box-sizing: border-box;
+  }
+  
+  .himo1 {
+    margin: 100px 10px 25px 100px;
+    /* margin-top: 100px;
+      margin-right: 10px ;
+      margin-bottom:25px;
+      margin-left: 100px ; */
+    background-color: blue;
+  }
+  
+  .himo2 {
+    margin: 50px 100px 25px 0px;
+    background-color: rgb(251, 227, 227);
+  }
+  .boxing1 {
+    width: 233px;
+    height: 211px;
+    background-color: rgb(247, 20, 20);
+    display: inline;
+  }
+  
+  .boxing2 {
+    width: 233px;
+    height: 211px;
+    background-color: rgb(249, 11, 249);
+    display: inline;
+  }
+  
+  .boxng1{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(252, 0, 0);
+    position: relative;
+    display: inline-block;
+    
+  }
+  .boxng2{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(252, 218, 0);
+    position: absolute;
+    /* position: relative; */
+    display: inline-block;
+    bottom: 0%;
+    right: 0%;
+  }
+  .papa{
+    background-color: aquamarine;
+    width: 500px;
+    height: 200px;
+   position: relative;
+   
+  }
+  .circle{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(71, 252, 0);
+    position: absolute;
+    /* position: relative; */
+    display: inline-block;
+    border-radius: 280px;
+    top: 25%;
+  }  
+/* .float{
+    float: right;
+} */
+.square1{
+    background: rgb(255, 0, 0);
+    width: 30vh;
+    height: 200px;
+    margin-bottom: 30px ;
+    float: right;
+    clear: left;
+}
+
+.square2{
+    background: rgb(0, 0, 255);
+    width: 30vh;
+    height: 200px;
+    margin-bottom: 30px ;
+    float: left;
+    /* clear: right; */
+}
+.square3{
+    background: rgb(34, 255, 0);
+    width: 30vh;
+    height: 200px;
+    margin-bottom: 30px ;
+    float: right;
+    clear: left;
+}
+.square4{
+    background: rgb(255, 225, 0);
+    width: 30vh;
+    height: 200px;
+    margin-bottom: 30px ;
+    float: left;
+    /* clear: right; */
+}
+.flex{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  position: relative;
+  bottom: -440;
+}
+.Rectangle1{
+  background: rgba(218, 207, 3, 0.414);
+  width: 30vh;
+  height: 200px;
+  margin-bottom: 30px ;
+  display: flex;
+
+}
+.Rectangle2{
+  background: rgb(195, 0, 255);
+  width: 30vh;
+  height: 200px;
+  margin-bottom: 30px ;
+  display: flex;
+}
+.Rectangle3{
+    background: rgb(0, 255, 255);
+    width: 30vh;
+    height: 200px;
+    margin-bottom: 30px ;
+    display: flex;
+}
+.Rectangle4{
+    background: rgba(115, 255, 0, 0.648);
+    width: 30vh;
+    height: 200px;
+    margin-bottom: 30px ;
+    display: flex;
+}
+.grid{
+  display:grid;
+  grid-gap: 10px 1075px;
+  grid-template-columns: 150px 150px ;
+  grid-template-rows: 150px 150px ;
+  background-color: mediumspringgreen;
+  /* justify-content: space-around; */
+}
+.cell{
+  background-color: blueviolet;
+}
+
+

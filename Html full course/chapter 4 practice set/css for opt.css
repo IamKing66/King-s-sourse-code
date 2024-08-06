@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter",sans-serif;
+}
+body{
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: blanchedalmond;
+
+}
+.otp{
+    width: 300px;
+    height: auto;
+    padding: 40px 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+p{
+    font-size: 20px;
+    color: #121212;
+
+}
+
+.input-feild input:focus{jknhjhs
+
+}
+
+
+
+
+
