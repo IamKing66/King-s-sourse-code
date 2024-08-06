@@ -1,0 +1,28 @@
+
+.content{
+    position: absolute;
+    top: 28vh;
+    left: 80vh;
+}
+p, h1, h2{
+    text-align: center;
+}
+#no,#yes {
+ border: 2px solid rgb(25, 23, 23);
+ position: relative;
+ /* left: 25%; */
+ text-align: center;
+ text-decoration: none;
+ color: rgb(229, 0, 0);
+ background: #020205;
+ border-radius: 10%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vh;
+    overflow: hidden;
+    background-color: pink;
+}
